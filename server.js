@@ -24,7 +24,7 @@ bot.start((ctx) => {
   tokenMap.set(token, chatId);
 
   // ضع رابط استضافتك الخارجي هنا بعد رفعه على Render
-  const link = `https://yourproject.onrender.com/assess?t=${token}`;
+  const link = `https://tele-mu-pink.vercel.app/assess?t=${token}`;
   ctx.reply(`🔗 أرسل هذا الرابط للشخص الآخر:\n${link}`);
 });
 
